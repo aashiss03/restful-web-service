@@ -3,6 +3,10 @@ package com.in28minutes.rest.webservices.restfulwebservices.user;
 import java.util.Date;
 
 public class User {
+	public User() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	private Integer id;
 	private String name;
 	private Date birthDate;
